@@ -1,6 +1,4 @@
-FROM quintenk/supervisor
-
-MAINTAINER Quinten Krijger "https://github.com/Krijger"
+FROM ubuntu/12.04
 
 RUN apt-get -y install python-software-properties
 RUN add-apt-repository ppa:webupd8team/java
